@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/rororo707/sminnix.github.io/static/css/main.9abe59ec.css",
-    "main.js": "/rororo707/sminnix.github.io/static/js/main.71a90998.js",
-    "static/js/453.3deeaab7.chunk.js": "/rororo707/sminnix.github.io/static/js/453.3deeaab7.chunk.js",
-    "index.html": "/rororo707/sminnix.github.io/index.html",
-    "main.9abe59ec.css.map": "/rororo707/sminnix.github.io/static/css/main.9abe59ec.css.map",
-    "main.71a90998.js.map": "/rororo707/sminnix.github.io/static/js/main.71a90998.js.map",
-    "453.3deeaab7.chunk.js.map": "/rororo707/sminnix.github.io/static/js/453.3deeaab7.chunk.js.map"
+    "main.css": "/sminnix.github.io/static/css/main.9abe59ec.css",
+    "main.js": "/sminnix.github.io/static/js/main.fd6d098d.js",
+    "static/js/453.3deeaab7.chunk.js": "/sminnix.github.io/static/js/453.3deeaab7.chunk.js",
+    "index.html": "/sminnix.github.io/index.html",
+    "main.9abe59ec.css.map": "/sminnix.github.io/static/css/main.9abe59ec.css.map",
+    "main.fd6d098d.js.map": "/sminnix.github.io/static/js/main.fd6d098d.js.map",
+    "453.3deeaab7.chunk.js.map": "/sminnix.github.io/static/js/453.3deeaab7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9abe59ec.css",
-    "static/js/main.71a90998.js"
+    "static/js/main.fd6d098d.js"
   ]
 }

@@ -1,6 +1,7 @@
 .App {
   text-align: center;
 }
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -9,6 +10,56 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
 .App-link {
   color: #61dafb;
 }
+
+.navBarBackground {
+  width: auto;
+  background-color: #282c34;
+}
+
+.navBar {
+  display: flex;
+  margin: 0px 50px 0px 50px;
+  padding: 10px 10px 5px 10px;
+  font-size: 9px;
+  /*height: 25px;*/
+  justify-content: space-between;
+  border-bottom: 1px solid #373d49;
+  color: gray;
+}
+
+.navBarItem {
+  padding-left: 10px;
+
+  span.material-icons {
+    display: inline-flex;
+    vertical-align: top;
+  }
+
+  transition: transform 0.3s ease;
+  /*todo*/
+}
+
+.navBarItem:hover {
+  color: white;
+  cursor: pointer;
+  transform: scale(1.05);
+  /*todo*/
+}
+
+.navBarIcon {
+  position: relative;
+  top: 1px;
+  padding-right: 1px;
+}
+
+/*\\.navBarTitle {
+  align-items: start;
+}
+
+.navBarSelections {
+  align-items: end;
+}*/

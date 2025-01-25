@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/sminnix.github.io/static/css/main.a622524d.css",
+    "main.css": "/sminnix.github.io/static/css/main.44c22d88.css",
     "main.js": "/sminnix.github.io/static/js/main.56726a10.js",
     "static/js/453.3deeaab7.chunk.js": "/sminnix.github.io/static/js/453.3deeaab7.chunk.js",
     "index.html": "/sminnix.github.io/index.html",
-    "main.a622524d.css.map": "/sminnix.github.io/static/css/main.a622524d.css.map",
+    "main.44c22d88.css.map": "/sminnix.github.io/static/css/main.44c22d88.css.map",
     "main.56726a10.js.map": "/sminnix.github.io/static/js/main.56726a10.js.map",
     "453.3deeaab7.chunk.js.map": "/sminnix.github.io/static/js/453.3deeaab7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a622524d.css",
+    "static/css/main.44c22d88.css",
     "static/js/main.56726a10.js"
   ]
 }

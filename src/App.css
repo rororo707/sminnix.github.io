@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  background-color: #282c34;
+  font-family: "DM Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
 }
 
 .App-header {
@@ -15,6 +20,14 @@
   color: #61dafb;
 }
 
+.turqoiseColor {
+  color: #43C5D6;
+}
+
+.whiteColor {
+  color: white;
+}
+
 .navBarBackground {
   width: auto;
   background-color: #282c34;
@@ -24,7 +37,7 @@
   display: flex;
   margin: 0px 50px 0px 50px;
   padding: 10px 10px 5px 10px;
-  font-size: 9px;
+  font-size: 20px;
   /*height: 25px;*/
   justify-content: space-between;
   border-bottom: 1px solid #373d49;
@@ -52,9 +65,31 @@
 
 .navBarIcon {
   position: relative;
-  top: 1px;
-  padding-right: 1px;
+  top: 3px;
+  padding-right: 2px;
 }
+
+.aboutMeSection {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  /*background-color: red;*/
+  margin: 10px 250px 0px 350px;
+  padding: 150px 0px 0px 0px
+}
+
+.aboutMeText {
+  text-align: left;
+  padding: 0px 0px 0px 0px;
+}
+
+.invertedColorImage {
+  filter: invert();
+  height: 200px;
+  width: auto;
+}
+
+
 
 /*\\.navBarTitle {
   align-items: start;

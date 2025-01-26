@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/sminnix.github.io/static/css/main.44c22d88.css",
-    "main.js": "/sminnix.github.io/static/js/main.56726a10.js",
+    "main.css": "/sminnix.github.io/static/css/main.5f2b0858.css",
+    "main.js": "/sminnix.github.io/static/js/main.2b2b16c4.js",
     "static/js/453.3deeaab7.chunk.js": "/sminnix.github.io/static/js/453.3deeaab7.chunk.js",
+    "static/media/engineerGraphic.webp": "/sminnix.github.io/static/media/engineerGraphic.5333eb98caae17e6d8f3.webp",
     "index.html": "/sminnix.github.io/index.html",
-    "main.44c22d88.css.map": "/sminnix.github.io/static/css/main.44c22d88.css.map",
-    "main.56726a10.js.map": "/sminnix.github.io/static/js/main.56726a10.js.map",
+    "main.5f2b0858.css.map": "/sminnix.github.io/static/css/main.5f2b0858.css.map",
+    "main.2b2b16c4.js.map": "/sminnix.github.io/static/js/main.2b2b16c4.js.map",
     "453.3deeaab7.chunk.js.map": "/sminnix.github.io/static/js/453.3deeaab7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.44c22d88.css",
-    "static/js/main.56726a10.js"
+    "static/css/main.5f2b0858.css",
+    "static/js/main.2b2b16c4.js"
   ]
 }

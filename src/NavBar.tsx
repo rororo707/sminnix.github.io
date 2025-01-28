@@ -3,26 +3,54 @@ import WorkIcon from '@mui/icons-material/Work';
 import MailIcon from '@mui/icons-material/Mail';
 import HomeIcon from '@mui/icons-material/Home';
 
-const NavBar: React.FC = () => {
+
+
+interface INavBarProps {
+    setBodyContentsType: React.Dispatch<React.SetStateAction<string>>;
+}
+const NavBar: React.FC<INavBarProps> = ({ setBodyContentsType }) => {
     return (
         <div className="navBarBackground">
             <div className="navBar">
-                <div className="navBarTitle whiteColor">
-                    <span>rororo707.github.io/sminnix.github.io/</span>
-                </div>
+                <SocialMediaButtons />
                 <div className="navBarSelections">
-                    <NavBarHomeHover />
-                    <NavBarSchoolHover />
-                    <NavBarExperienceHover />
-                    <NavBarContactHover />
+                    <HomeHover
+                        setBodyContentsType={setBodyContentsType}
+                    />
+                    <EducationHover
+                        setBodyContentsType={setBodyContentsType}
+                    />
+                    <ExperienceHover
+                        setBodyContentsType={setBodyContentsType}
+                    />
+                    <ContactHover
+                        setBodyContentsType={setBodyContentsType}
+                    />
                 </div>
             </div>
         </div>
     );
 }
-const NavBarHomeHover: React.FC = () => {
+const SocialMediaButtons: React.FC = () => {
     return (
-        <span className='navBarItem' onClick={() => { alert("Education clicked!") }}>
+        <span>
+            <a href="https://www.linkedin.com/in/shiloh-minnix/">
+                <span className="socialMediaButton">
+
+                    <img src={require("./images/linkedin.png")} />
+                </span>
+            </a>
+            <a href="https://github.com/rororo707/">
+                <span className="socialMediaButton">
+                    <img src={require("./images/github.png")} />
+                </span>
+            </a>
+        </span >
+    );
+}
+const HomeHover: React.FC<INavBarProps> = ({ setBodyContentsType }) => {
+    return (
+        <span className='navBarItem' onClick={() => setBodyContentsType("Home")}>
             <HomeIcon
                 fontSize="inherit"
                 className="navBarIcon" />
@@ -30,9 +58,9 @@ const NavBarHomeHover: React.FC = () => {
         </span>
     );
 }
-const NavBarSchoolHover: React.FC = () => {
+const EducationHover: React.FC<INavBarProps> = ({ setBodyContentsType }) => {
     return (
-        <span className='navBarItem' onClick={() => { alert("Education clicked!") }}>
+        <span className='navBarItem' onClick={() => setBodyContentsType("Education")}>
             <SchoolIcon
                 fontSize="inherit"
                 className="navBarIcon" />
@@ -40,9 +68,9 @@ const NavBarSchoolHover: React.FC = () => {
         </span>
     );
 }
-const NavBarExperienceHover: React.FC = () => {
+const ExperienceHover: React.FC<INavBarProps> = ({ setBodyContentsType }) => {
     return (
-        <span className='navBarItem' onClick={() => { alert("Experience clicked!") }}>
+        <span className='navBarItem' onClick={() => setBodyContentsType("Experience")}>
             <WorkIcon
                 fontSize="inherit"
                 className="navBarIcon" />
@@ -50,10 +78,10 @@ const NavBarExperienceHover: React.FC = () => {
         </span>
     );
 }
-const NavBarContactHover: React.FC = () => {
+const ContactHover: React.FC<INavBarProps> = ({ setBodyContentsType }) => {
     return (
         <span
-            className='navBarItem' onClick={() => { alert("Contact clicked!") }}>
+            className='navBarItem' onClick={() => setBodyContentsType("Contact")}>
             <MailIcon
                 fontSize="inherit"
                 className="navBarIcon" />

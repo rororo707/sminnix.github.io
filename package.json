@@ -4,6 +4,7 @@
   "private": false,
   "homepage": "https://rororo707.github.io/sminnix.github.io/",
   "dependencies": {
+    "@apollo/client": "^3.12.7",
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
     "@mui/icons-material": "^6.4.1",

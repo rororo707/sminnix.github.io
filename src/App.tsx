@@ -1,4 +1,6 @@
 import React from 'react';
+import { useState } from 'react';
+import { useSubscription } from '@apollo/client';
 import './App.css';
 import { Routes, Route } from 'react-router-dom'
 import NavBar from "./NavBar";
@@ -16,16 +18,24 @@ function App() {
 }
 
 const Body: React.FC = () => {
+  const [bodyContentsType, setBodyContentsType] = useState('');
   return (
     <div className="App">
-      <NavBar />
-      <AboutMe />
+      <NavBar
+        setBodyContentsType={setBodyContentsType}
+      />
+      {bodyContentsType == "Home" ? <AboutMeSection />
+        : bodyContentsType == "Education" ? <EducationSection />
+          : bodyContentsType == "Experience" ? <ExperienceDisplay />
+            : bodyContentsType == "Contact" ? <ContactDisplay />
+              : <AboutMeSection />
+      }
       <header className="App-header">
       </header>
     </div>
   );
 }
-const AboutMe: React.FC = () => {
+const AboutMeSection: React.FC = () => {
   return (
     <div className="aboutMeSection">
       <span className="aboutMeText">
@@ -38,6 +48,30 @@ const AboutMe: React.FC = () => {
         height="250px"
         className="invertedColorImage rightAlignedImage" />
     </div>
+  );
+}
+const EducationSection: React.FC = () => { //TODO
+  const educationDisplay = "Education"
+  return (
+    <>
+      <p>{educationDisplay}</p>
+    </>
+  );
+}
+const ExperienceDisplay: React.FC = () => {
+  const experienceDisplay = "Experience"
+  return (
+    <>
+      <p>{experienceDisplay}</p>
+    </>
+  );
+}
+const ContactDisplay: React.FC = () => {
+  const contactDisplay = "Contact"
+  return (
+    <>
+      <p>{contactDisplay}</p>
+    </>
   );
 }
 export default App;

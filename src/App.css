@@ -89,7 +89,25 @@
   width: auto;
 }
 
+.socialMediaButton {
+  >img {
+    width: 24px;
+    height: 24px;
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid rgba(128, 128, 128, 0.428);
+    border-radius: 10px;
+  }
+}
 
+.socialMediaButton:hover {
+  >img {
+    background-color: rgba(128, 128, 128, 0.584);
+    cursor: pointer;
+    transition-duration: 0.4s;
+    transform: scale(1.10);
+  }
+}
 
 /*\\.navBarTitle {
   align-items: start;

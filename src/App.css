@@ -35,8 +35,8 @@
 
 .navBar {
   display: flex;
-  margin: 0px 50px 0px 50px;
-  padding: 10px 10px 5px 10px;
+  margin: 0px 50px 10px 50px;
+  padding: 15px 10px 0px 10px;
   font-size: 20px;
   /*height: 25px;*/
   justify-content: space-between;
@@ -45,6 +45,8 @@
 }
 
 .navBarItem {
+  position: relative;
+  top: 3px;
   padding-left: 10px;
 
   span.material-icons {
@@ -87,13 +89,15 @@
   filter: invert();
   height: 200px;
   width: auto;
+  -webkit-transition: width 2s, height 2s;
+  transition: width 2s, height 2s
 }
 
 .socialMediaButton {
   >img {
     width: 24px;
     height: 24px;
-    margin: 5px 5px 5px 5px;
+    margin: 0px 5px 0px 5px;
     padding: 5px 5px 5px 5px;
     border: 1px solid rgba(128, 128, 128, 0.428);
     border-radius: 10px;
@@ -101,18 +105,10 @@
 }
 
 .socialMediaButton:hover {
-  >img {
+  >motion.img {
     background-color: rgba(128, 128, 128, 0.584);
     cursor: pointer;
     transition-duration: 0.4s;
     transform: scale(1.10);
   }
 }
-
-/*\\.navBarTitle {
-  align-items: start;
-}
-
-.navBarSelections {
-  align-items: end;
-}*/

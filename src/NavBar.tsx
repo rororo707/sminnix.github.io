@@ -20,7 +20,7 @@ const NavBar: React.FC<INavBarProps> = ({ setBodyContentsType }) => {
                     <EducationHover
                         setBodyContentsType={setBodyContentsType}
                     />
-                    <ExperienceHover
+                    <ProfessionalHover
                         setBodyContentsType={setBodyContentsType}
                     />
                     <ContactHover
@@ -68,13 +68,13 @@ const EducationHover: React.FC<INavBarProps> = ({ setBodyContentsType }) => {
         </span>
     );
 }
-const ExperienceHover: React.FC<INavBarProps> = ({ setBodyContentsType }) => {
+const ProfessionalHover: React.FC<INavBarProps> = ({ setBodyContentsType }) => {
     return (
-        <span className='navBarItem' onClick={() => setBodyContentsType("Experience")}>
+        <span className='navBarItem' onClick={() => setBodyContentsType("Professional")}>
             <WorkIcon
                 fontSize="inherit"
                 className="navBarIcon" />
-            <span>Experience</span >
+            <span>Professional</span >
         </span>
     );
 }

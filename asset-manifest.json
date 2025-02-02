@@ -1,20 +1,23 @@
 {
   "files": {
-    "main.css": "/sminnix.github.io/static/css/main.acbd84e0.css",
-    "main.js": "/sminnix.github.io/static/js/main.3916df0e.js",
+    "main.css": "/sminnix.github.io/static/css/main.a0861aee.css",
+    "main.js": "/sminnix.github.io/static/js/main.1b3d070f.js",
     "static/js/453.3deeaab7.chunk.js": "/sminnix.github.io/static/js/453.3deeaab7.chunk.js",
-    "static/media/uc-irvine.png": "/sminnix.github.io/static/media/uc-irvine.dff058cff672506f2436.png",
-    "static/media/github.png": "/sminnix.github.io/static/media/github.32b9b54c6608ffb457af.png",
-    "static/media/allanHancock.png": "/sminnix.github.io/static/media/allanHancock.6ae71d959801525b2bdd.png",
-    "static/media/EpicSystems.png": "/sminnix.github.io/static/media/EpicSystems.673cbb0c4329d5d7bb29.png",
-    "static/media/engineerGraphic.webp": "/sminnix.github.io/static/media/engineerGraphic.5333eb98caae17e6d8f3.webp",
+    "static/media/tennessee.png": "/sminnix.github.io/static/media/tennessee.a745a8ebd8acd60afb47.png",
+    "static/media/uc-irvine.png": "/sminnix.github.io/static/media/uc-irvine.83bb529ed7903e4d9e20.png",
+    "static/media/allanHancock.png": "/sminnix.github.io/static/media/allanHancock.1860dd346d8deb738b7d.png",
+    "static/media/github.png": "/sminnix.github.io/static/media/github.fd93d0dc98d91ec128a4.png",
+    "static/media/engineerGraphic.png": "/sminnix.github.io/static/media/engineerGraphic.30502e88d8d21ceb6466.png",
+    "static/media/EpicSystems.png": "/sminnix.github.io/static/media/EpicSystems.0d689d2757637373af21.png",
+    "static/media/uciIcon.png": "/sminnix.github.io/static/media/uciIcon.a207e6a475876756789a.png",
+    "static/media/linkedin.png": "/sminnix.github.io/static/media/linkedin.8b9914efc2099b46a68d.png",
     "index.html": "/sminnix.github.io/index.html",
-    "main.acbd84e0.css.map": "/sminnix.github.io/static/css/main.acbd84e0.css.map",
-    "main.3916df0e.js.map": "/sminnix.github.io/static/js/main.3916df0e.js.map",
+    "main.a0861aee.css.map": "/sminnix.github.io/static/css/main.a0861aee.css.map",
+    "main.1b3d070f.js.map": "/sminnix.github.io/static/js/main.1b3d070f.js.map",
     "453.3deeaab7.chunk.js.map": "/sminnix.github.io/static/js/453.3deeaab7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.acbd84e0.css",
-    "static/js/main.3916df0e.js"
+    "static/css/main.a0861aee.css",
+    "static/js/main.1b3d070f.js"
   ]
 }

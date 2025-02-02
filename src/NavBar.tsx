@@ -10,7 +10,7 @@ interface INavBarProps {
 }
 const NavBar: React.FC<INavBarProps> = ({ setBodyContentsType }) => {
     return (
-        <div className="navBarBackground">
+        <div className="navBarBackground backgroundColor">
             <div className="navBar">
                 <SocialMediaButtons />
                 <div className="navBarSelections">
@@ -23,9 +23,11 @@ const NavBar: React.FC<INavBarProps> = ({ setBodyContentsType }) => {
                     <ProfessionalHover
                         setBodyContentsType={setBodyContentsType}
                     />
-                    <ContactHover
-                        setBodyContentsType={setBodyContentsType}
-                    />
+                    {true ? null : //TODO implement contact later..
+                        <ContactHover
+                            setBodyContentsType={setBodyContentsType}
+                        />
+                    }
                 </div>
             </div>
         </div>

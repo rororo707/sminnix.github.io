@@ -23,7 +23,7 @@ function App() {
 const Body: React.FC = () => {
   const [bodyContentsType, setBodyContentsType] = useState('');
   return (
-    <div className="App">
+    <div className="App backgroundJetColor">
       <NavBar
         setBodyContentsType={setBodyContentsType}
       />
@@ -33,7 +33,7 @@ const Body: React.FC = () => {
             : bodyContentsType == "Contact" ? <ContactDisplay />
               : <AboutMeSection />
       }
-      <header className="App-header">
+      <header className="App-header backgroundJetColor">
       </header>
     </div>
   );

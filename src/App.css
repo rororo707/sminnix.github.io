@@ -1,36 +1,52 @@
+/* Firefox */
+* {
+  scrollbar-color: #43C5D6 #2D2D2A;
+  scrollbar-width: thin;
+}
+
+
+
 .App {
   text-align: center;
-  background-color: #282c34;
   font-family: "DM Sans", serif;
   font-optical-sizing: auto;
   font-weight: normal;
   font-style: normal;
+  text-shadow: 2px 2px 5px black;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
 .turqoiseColor {
   color: #43C5D6;
 }
 
+
 .whiteColor {
   color: white;
 }
 
+.jetColor {
+  color: #2D2D2A;
+}
+
+.backgroundJetColor {
+  background-color: #2D2D2A;
+}
+
+.altGrayBackgroundColor {
+  background-color: #4C4C47;
+}
+
 .navBarBackground {
   width: auto;
-  background-color: #282c34;
 }
 
 .navBar {
@@ -79,6 +95,12 @@
   margin: 10px 250px 0px 350px;
 }
 
+.break {
+  flex-basis: 100%;
+  /* ✅ Forces a new line */
+  height: 0;
+  /* Prevent extra spacing */
+}
 
 
 .padTop150 {
@@ -90,10 +112,20 @@
   padding: 0px 0px 0px 0px;
 }
 
+.largeHeader {
+  font-size: 60px;
+  margin: 0px 0px 0px 0px;
+}
+
+.mediumHeader {
+  font-size: 40px;
+  margin: 0px 0px 15px 0px;
+}
+
 .invertedColorImage {
-  filter: invert();
   height: 200px;
   width: auto;
+  max-width: 500px;
   -webkit-transition: width 2s, height 2s;
   transition: width 2s, height 2s
 }
@@ -110,17 +142,28 @@
 }
 
 .socialMediaButton:hover {
-  >motion.img {
-    background-color: rgba(128, 128, 128, 0.584);
+  >img {
+    background-color: #4C4C47;
     cursor: pointer;
     transition-duration: 0.4s;
     transform: scale(1.10);
   }
 }
 
+.experienceBody {
+  width: 350px;
+  height: auto;
+  text-align: left;
+}
+
 .experienceImage {
   width: 350px;
   height: auto;
+}
+
+.experienceImage:hover {
+  filter: brightness(0) saturate(100%) invert(100%);
+  cursor: pointer;
 }
 
 .experienceSection {
@@ -133,16 +176,14 @@
 }
 
 .experienceContent {
-  width: 100%;
+  width: 500px;
   height: 100%;
   position: relative;
   min-height: 600px;
-  background-color: rgba(0, 0, 0, 0.356);
   border-radius: 10px;
   padding: 15px 15px 15px 15px;
+  text-align: center;
 }
-
-.experienceTitle {}
 
 .bottomSwitchers {
   position: absolute;
@@ -154,6 +195,11 @@
 
 .bottomSwitcherCircle {
   padding-right: 10px;
+}
+
+.bottomSwitcherHover:hover {
+  cursor: pointer;
+  color: gray;
 }
 
 .bgRed {
